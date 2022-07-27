@@ -197,13 +197,13 @@
       "mscorlib.dll": "sha256-zMI\/dXK7DoZZ9Qm9U9\/jRN4iQ9Ss3w8\/rwQQxC6SW9Y=",
       "netstandard.dll": "sha256-W3q3PN+lpRB+tRJEIhtMgYOGFv0pauEeeCS9iIRkKAM=",
       "System.Private.CoreLib.dll": "sha256-9rUJv1mXEQdGt\/kWiJ1ITPPzp3cAi3lSmqHVTisp7w0=",
-      "COVID_Data.dll": "sha256-9gqQhmlCRvByBPTi4LVJLuVQYhZzha24pXjl3cFNKVk="
+      "COVID_Data.dll": "sha256-6ESvD6njSOEYOHOeUkvmC7DnaLyANqjHOPB3NhaNfMY="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "COVID_Data.pdb": "sha256-\/IzO871ngIN19Wy2tSqPh2xOhbIbThadpez4tdlTg4I="
+      "COVID_Data.pdb": "sha256-WwFYcq7EqHFmz02JGMNtWrupQ8AiE3F4haF+fB\/XqOY="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-8oJip361m8OrfLRJOuIeswWKaoxtT27\/wINCxhn+s4c=",

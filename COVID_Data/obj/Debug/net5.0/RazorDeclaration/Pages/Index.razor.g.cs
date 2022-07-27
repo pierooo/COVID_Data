@@ -105,10 +105,14 @@ using COVID_Data.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 27 "C:\Users\lenovo\source\repos\COVID_Data\COVID_Data\Pages\Index.razor"
+#line 28 "C:\Users\lenovo\source\repos\COVID_Data\COVID_Data\Pages\Index.razor"
        
     private List<CountryData> countries;
-
+    private int liczba = 1;
+    private int liczbaPorzadkowa()
+    {
+        return liczba++;
+    }
     protected override async Task OnInitializedAsync()
     {
         countries = await CountriesDataService.GetTwentyMostConfirmed();

@@ -9,11 +9,12 @@
         @foreach (var item in countries)
         {
             <tr>
+                <th>@liczbaPorzadkowa()</th>
                 <th class="redWord">@item.Country</th>
-                <th>@item.CountryCode</th>
-                <th>@item.Slug</th>
                 <th>@item.NewConfirmed</th>
                 <th class="redWord">@item.TotalConfirmed</th>
+                <th>@item.CountryCode</th>
+                <th>@item.Slug</th>
                 <th>@item.NewDeaths</th>
                 <th>@item.TotalDeaths</th>
                 <th>@item.NewRecovered</th>
@@ -26,7 +27,11 @@
 
 @code {
     private List<CountryData> countries;
-
+    private int liczba = 1;
+    private int liczbaPorzadkowa()
+    {
+        return liczba++;
+    }
     protected override async Task OnInitializedAsync()
     {
         countries = await CountriesDataService.GetTwentyMostConfirmed();
